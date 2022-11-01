@@ -1,0 +1,122 @@
+
+/* Header css */
+
+header {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;  }
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+header img {width: 56%;
+            margin-left: 35px;
+        }
+
+#liensheader {
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 94%;
+    margin-right: 234px;
+    font-family:'Roboto Slab', serif;
+    font-size: 14px;
+}
+
+
+/* Footer css */
+
+footer {color:white;}
+
+.listliens>ul {list-style-type:none;
+    color:white;}
+
+.listliens  a:link{color:white;}
+.listliens  a:hover{color:white;}
+.listliens  a:active{color:white;}
+.listliens  a:visited{color:white;}
+
+.subfooter {background-color: black;
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;        }
+
+.upfooter {background-color: #313131;
+    display:flex; 
+    justify-content: space-around;}
+
+#plate {width: 100%;
+}
+
+.listliens{
+    display:flex;
+    flex-direction: row;}
+
+.upfootgauche{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;}
+
+
+    /* Mosaique photos et lien contact */
+
+.mosaiqueinscription {background-color: #336699;
+    display:flex;
+    margin:0;
+}
+
+#mos {
+    /* display:flex; */
+    /* justify-content: flex-end; */
+    width: 50%;
+}
+
+#mosaique {width: 100%;
+}
+
+.leftpart {color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-top: -235px;    
+}
+
+body{margin:0}
+
+#lefttext{padding:20%;
+        padding-bottom: 0%;
+}
+
+.inscri{color:white;
+        border-color: #ff2063;
+        background-color: #ff2063; 
+        font-size: 22px;
+        font-weight: 700!important;   
+        border-width: 2px!important;   
+        border-radius: 100px;
+        letter-spacing: 1px;
+        text-transform: uppercase!important;
+        width: 420px;
+
+}
+.inscri:hover{transform:scale(1.05);
+                transition-duration: 0.3s;
+}
+
+
+/* 3 tableaux avec liens et titres */
+
+#titrenumerique {font-family: 'Roboto Slab', serif;
+                color:#336699;
+                font-size:27px;
+                text-align:center;
+                background-color:#FFFFFF;
+}
